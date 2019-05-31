@@ -5,11 +5,13 @@
 
 ![alt text](https://image.slidesharecdn.com/icwe2016dockertutorial-160607091958/95/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering-37-638.jpg?cb=1474409524)
 
-Important commands:
-    - "docker build ." - create image with dockerfile
-    - "docker images" - list all images
-    - "docker run <image> sh -c "ls" - run image with shell and pass a specific command 
-    - "docker run -it <image> sh" - run image and open shell
+- A docker image can be run by multiple containers.
+
+**Important commands:**
+- "docker build ." - create image with dockerfile
+- "docker images" - list all images
+- "docker run <image> sh -c "ls" - run image with shell and pass a specific command 
+- "docker run -it <image> sh" - run image and open shell
 
 ### Dockerfile 
 - **"FROM python:3.7-alpine"** - Base image for the docker 
@@ -23,7 +25,6 @@ Important commands:
 - A tool that allows to run a docker image easly from the project location and helps managing different containers. 
 - Docker Compose, “a tool for defining and running complex applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.” 
 All of that can be done by Docker Compose in the scope of a single host. In that sense, its concept is very similar to Kubernetes pods. For multi-host deployment, you should use more advanced solutions, like Apache Mesos or a complete Google Kubernetes architecture. 
-- A docker image can be run by multiple containers.
 - Allow to easily manage the different services that make the project, for instance the python application and the database.
 - version: "3" - Version of the docker compose
 - "context: ." - Current directory to run docker compose. Where the dockerfile is.
