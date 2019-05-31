@@ -1,4 +1,4 @@
-# Create an advanced REST API with Python, Django REST Framework and Docker using Test Driven Development (TDD)
+# Create an REST API with Python, Django REST Framework and Docker using Test Driven Development (TDD)
 
 
 ## Docker:
