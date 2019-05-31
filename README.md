@@ -3,7 +3,7 @@
 
 ## Docker:
 
-![alt text](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjw0tn2wsbiAhWJkxQKHSiBCbUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.slideshare.net%2Fvincenzoferme%2Fusing-docker-containers-to-improve-reproducibility-in-software-and-web-engineering&psig=AOvVaw2eVGSDMKFbgNDoFoF6lbGf&ust=1559417975017181)
+![alt text](https://image.slidesharecdn.com/icwe2016dockertutorial-160607091958/95/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering-37-638.jpg?cb=1474409524)
 
 Important commands:
     - "docker build ." - create image with dockerfile
