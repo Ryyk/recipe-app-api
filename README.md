@@ -45,6 +45,7 @@ All of that can be done by Docker Compose in the scope of a single host. In that
 **Important commands:**
 - docker-compose run app sh -c "django-admin.py startproject app ." - create django project using docker compose
 - docker-compose run app sh -c "python manage.py startapp core" - create core app
+- docker-compose run app sh -c "python manage.py makemigrations core" - Creates a new migrations/ file that allows Django to create the model in the database that we use. Everytime changes are done to the model the command needs to be run
 
 ## Django Rest framework:
 - Extension to Django to build REST API's
