@@ -11,7 +11,12 @@
 
 ## Docker-compose:
 
-
+- A tool that allows to run a docker image easly from the project location.
+- Allow to easily manage the different services that make the project, for instance the python application and the database.
+- version: "3" - Version of the docker compose
+- "context: ." - Current directory to run docker compose
+- "ports:" - Match the port 8000 on the host to port 8000 on the image.
+- "volume" - Maps the volume of the local machine into the docker container. Making it possible to get the updates that we make to our project into our docker image in real time. Whenever we change a file will be updated in the container without building an docker image again.
 
 ## Tools used:
 
