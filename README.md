@@ -41,6 +41,9 @@ All of that can be done by Docker Compose in the scope of a single host. In that
     - convert objects to database rows automaticly
 - Django admin to manage database
 
+**Important commands:**
+- docker-compose run app sh -c "django-admin.py startproject app ." - create django project using docker compose
+
 ## Django Rest framework:
 - Extension to Django to build REST API's
 - Built in authentication for the API endpoints
