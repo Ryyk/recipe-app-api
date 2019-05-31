@@ -18,7 +18,7 @@
 - "ports:" - Match the port 8000 on the host to port 8000 on the image.
 - "volume" - Maps the volume of the local machine into the docker container. Making it possible to get the updates that we make to our project into our docker image in real time. Whenever we change a file will be updated in the container without building an docker image again.
 
-## Travis:
+## Travis (similar to Jenkins):
 - Continuous integration tool to automate tests and checks on projects every time we push changes.
 
 ## Django:
